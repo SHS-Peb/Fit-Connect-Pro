@@ -16,7 +16,11 @@ User.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    first_name: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    last_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -34,6 +38,14 @@ User.init(
       validate: {
         len: [8],
       },
+    },
+    mobile: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    isadmin: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
     },
   },
   {

@@ -1,0 +1,26 @@
+[
+  {
+    "first_name": "Sal",
+    "last_name": "Sal",
+    "email": "sal@hotmail.com",
+    "password": "password12345",
+    "mobile": "0400000000",
+    "isadmin": "0"
+  },
+  {
+    "first_name": "Peter",
+    "last_name": "m",
+    "email": "peter@hotmail.com",
+    "password": "password12345",
+    "mobile": "0400000000",
+    "isadmin": "0"
+  },
+  {
+    "first_name": "Allen",
+    "last_name": "H",
+    "email": "allen.h@hotmail.com",
+    "password": "password12345",
+    "mobile": "0400000040",
+    "isadmin": "1"
+  }
+]

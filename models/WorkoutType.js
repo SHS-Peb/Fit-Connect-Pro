@@ -5,7 +5,7 @@ class WorkoutType extends Model {}
 
 WorkoutType.init(
   {
-    workouttype_id: {
+    id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
